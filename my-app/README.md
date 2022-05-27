@@ -1,4 +1,5 @@
-Mi primera Pagina Web hecha con Angular
+Project Web Personal
 
+Saludos :D
 
-Aqui vamos! :D
+[Yoiner Rafael Bello Fajardo](https://www.linkedin.com/in/yoinerbello/)
