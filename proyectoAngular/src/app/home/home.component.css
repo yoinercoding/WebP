@@ -1,15 +1,18 @@
 img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 170px;
    }
    .profile-image {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     display: block;
     margin: 0px auto;
     text-align : center;
+    
    }
 
    .h2 {
     text-align : center;
    }
+
