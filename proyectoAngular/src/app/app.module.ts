@@ -6,13 +6,25 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { EducationComponent } from './education/education.component';
+import { TecnologiesComponent } from './tecnologies/tecnologies.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    EducationComponent,
+    TecnologiesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
