@@ -3,23 +3,19 @@
 <div class="profile-page">
     <div class="wrapper">
         <div class="page-header page-header-small" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('assets/images/F100026232.jpg');">
+            <div class="page-header-image" data-parallax="true">
             </div>
         <div class="container">
-            <div class="content-center">
-                <div class="profile-image">
-                    <a href="#">
-                        <img src="assets/images/IMG_20200128_182134.JPG" alt="Image"/>
-                    </a>
-                </div>
+            <div class="content-center"></div>
+                <br *ngFor="let number of [].constructor(10)">
                 <div class="h2 title text-center">Yoiner Rafael Bello Fajardo</div>
-                <p class="category text-white">Software Engineer</p>
+                <p class="category text-black text-center">Software Engineer</p>
             </div>
         </div>
         
         <br *ngFor="let number of [].constructor(20)"> <!--BAJA EN LA PAGINA ESPACIOS-->
 
-        
+
 <app-about></app-about>
 <app-experience></app-experience>
 <app-education></app-education>
