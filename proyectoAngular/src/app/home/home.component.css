@@ -1,0 +1,15 @@
+.home-img {
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: var(--mb-2);
+    display: block;
+}
+
+.home-img img {
+    width: 200px;
+    justify-content: center;
+    display: flex;
+}
+
