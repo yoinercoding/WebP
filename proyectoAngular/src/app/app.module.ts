@@ -9,7 +9,6 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { TecnologiesComponent } from './tecnologies/tecnologies.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     ExperienceComponent,
     EducationComponent,
-    TecnologiesComponent,
     ContactComponent
   ],
   imports: [
