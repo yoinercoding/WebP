@@ -6,3 +6,7 @@
     border:10px solid rgb(10, 1, 1);
 }
 
+.card-container {
+    justify-content: center;
+    display: flex;
+}
