@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: #fff;
+    background: url(assets/bg-pattern.png), #62506b;
+    background: url(assets/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#161418), to(#797374));
+    background: url(assets/bg-pattern.png), linear-gradient(to left, #726479, #4b0107);
+}
