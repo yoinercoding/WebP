@@ -7,7 +7,15 @@
     padding-top: 150px;
     padding-bottom: 100px;
     color: #fff;
-    background: url(assets/bg-pattern.png), #62506b;
-    background: url(assets/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#161418), to(#797374));
-    background: url(assets/bg-pattern.png), linear-gradient(to left, #726479, #4b0107);
+    background: url(assets/bg-pattern.png), #190f1f;
+    background: url(assets/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#060055), to(#4d4b4b));
+    background: url(assets/bg-pattern.png), linear-gradient(to left, #014e15, #858282);
+}
+
+.imgPerfil {
+    width: 220px;
+    height: 220px;
+    border-radius:150px;
+    display: block;
+    margin: -30px auto;
 }
