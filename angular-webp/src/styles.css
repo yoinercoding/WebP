@@ -10,7 +10,7 @@
 
 .body {
     padding-top: 70px;
-    padding-bottom: 132px;
+    padding-bottom: 98px;
     color: #fff;
     background: url(assets/bg-pattern.png), #190f1f;
     background: url(assets/bg-pattern.png), linear-gradient(to left, #070c09, #858282);
@@ -20,6 +20,7 @@
   margin: 0px auto;
   text-align: center;
   font-family: monospace;
+  font-size: larger;
 }
 
 .imgPerfil{
@@ -66,7 +67,7 @@
   }
 
   .card-container .card:not(.highlight-card):hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
   }
 
