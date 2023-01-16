@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .body {
+      padding-top: 70px;
+      padding-bottom: 98px;
+      color: #fff;
+      background: url(assets/bg-pattern.png), #190f1f;
+      background: url(assets/bg-pattern.png), linear-gradient(to left, #070c09, #858282);
+  }
+  
+  .name{
+    margin: 0px auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: larger;
+  }
+  
+  .imgPerfil{
+      width: 160px;
+      height: 180px;
+      border-radius:78px;
+      display: block;
+      margin: -30px auto;
+      box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+      -webkit-transition: margin 0.5s ease-out;
+      -moz-transition: margin 0.5s ease-out;
+      -o-transition: margin 0.5s ease-out;
+  }
+  
+  .imgPerfil:hover {
+    margin-top: 2px;
+  }
+  
+  .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 16px;
+      padding-top: 5%;
+    }
+  
+    .card {
+      all: unset;
+      border-radius: 4px;
+      border: 1px solid rgb(19, 17, 17);
+      background-color: #141313;
+      height: 40px;
+      width: 150px;
+      margin: 0 8px 16px;
+      padding: 16px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease-in-out;
+      line-height: 24px;
+      background-color: rgb(51, 49, 49);
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    .card-container .card:not(.highlight-card):hover {
+      transform: translateY(-15px);
+      box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    }
+  
+    .material-icons {
+      height: 20px;
+      width: 20px;
+      margin-right: 5px;
+    }
