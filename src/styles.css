@@ -76,3 +76,15 @@
       width: 20px;
       margin-right: 5px;
     }
+
+    .footer {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      text-align: center;
+      color: aqua;
+    }
+
+    .link-color-footer{
+      color: aqua;
+    }
