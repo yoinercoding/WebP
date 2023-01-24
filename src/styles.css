@@ -9,11 +9,10 @@
   }
   
   .body {
-      padding-top: 70px;
-      padding-bottom: 98px;
+      height: 100vh;
       color: #fff;
       background: url(assets/bg-pattern.png), #190f1f;
-      background: url(assets/bg-pattern.png), linear-gradient(to left, #070c09, #858282);
+      background: url(assets/bg-pattern.png), linear-gradient(to left, #070c09, #3b3939);
   }
   
   .name{
@@ -21,6 +20,7 @@
     text-align: center;
     font-family: monospace;
     font-size: larger;
+    color: rgb(247, 252, 252);
   }
   
   .imgPerfil{
@@ -64,6 +64,7 @@
       line-height: 24px;
       background-color: rgb(51, 49, 49);
       font-family: 'Courier New', Courier, monospace;
+      color: rgb(247, 252, 252);
     }
   
     .card-container .card:not(.highlight-card):hover {
@@ -82,9 +83,15 @@
       bottom: 0px;
       width: 100%;
       text-align: center;
-      color: aqua;
+      color: rgb(247, 252, 252);
     }
 
     .link-color-footer{
-      color: aqua;
+      color: rgb(247, 252, 252);
+    }
+
+    .main-logos-tecnologias {
+      position: absolute;
+      bottom: 40px;
+      text-align: center;
     }
