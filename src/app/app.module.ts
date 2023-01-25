@@ -9,6 +9,7 @@ import { InfoComponent } from './info/info.component';
 import { MainComponent } from './main/main.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { FooterComponent } from './footer/footer.component';
+import { OnToTopComponent } from './on-to-top/on-to-top.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     InfoComponent,
     MainComponent,
     TecnologiasComponent,
-    FooterComponent
+    FooterComponent,
+    OnToTopComponent
   ],
   imports: [
     BrowserModule,
