@@ -1,4 +1,4 @@
-.container  {
+.container-info {
   position: absolute;
   left: 50%;
   top: 40%;
@@ -60,11 +60,11 @@ h3 {
   transition: 1s;
 }
 
-.container:hover .flap::after {
+.container-info:hover .flap::after {
   transform: translatex(350px);
 }
 
-.container:hover .flap::before{
+.container-info:hover .flap::before{
   transform: translatex(-350px);
 }
 
