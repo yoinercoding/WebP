@@ -4,7 +4,7 @@
   top: 40%;
   transform: translate(-50%, -50%);
   height: 400px;
-  width: 700px;
+  width: 900px;
   background: rgb(201, 198, 198);
   overflow: hidden;
   border-radius: 20px;
@@ -61,11 +61,11 @@ h3 {
 }
 
 .container-info:hover .flap::after {
-  transform: translatex(350px);
+  transform: translatex(450px);
 }
 
 .container-info:hover .flap::before{
-  transform: translatex(-350px);
+  transform: translatex(-450px);
 }
 
 * {
