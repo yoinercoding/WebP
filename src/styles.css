@@ -7,7 +7,7 @@
   ::-webkit-scrollbar {
     display: none;
   }
-  
+
   .background{
       height: 100vh;
       color: #aca0a0;
@@ -26,7 +26,7 @@
       bottom: 0px;
       width: 100%;
       text-align: center;
-      color: #000000;
+      color: rgb(247, 252, 252);
     }
 
     .link-color-footer{
@@ -41,6 +41,12 @@
     }
 
     .button-info {
+      position: absolute;
+      bottom: 40px;
+      text-align: center;
+    }
+
+    .logos-footer {
       position: absolute;
       bottom: 40px;
       text-align: center;
