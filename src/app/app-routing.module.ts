@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InfoComponent } from './info/info.component';
+import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'info', pathMatch: 'full'},
-  { path: '**', redirectTo: 'info', pathMatch: 'full'},
-  { path: 'info', component: InfoComponent},
+  { path: '', redirectTo: 'main', pathMatch: 'full'},
+  { path: '**', redirectTo: 'main', pathMatch: 'full'},
+  { path: 'main', component: MainComponent},
   { path: 'footer', component: FooterComponent},
-  
 ];
 
 @NgModule({
