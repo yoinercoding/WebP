@@ -10,7 +10,7 @@
 
   .background{
       height: 100vh;
-      color: #aca0a0;
+      color: #1e1414;
       background: url(assets/bg-pattern.png), #070707;
       background: url(assets/bg-pattern.png), linear-gradient(to left, #435048, #3b3939);
   }
