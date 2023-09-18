@@ -5,7 +5,7 @@
   transform: translate(-50%, -50%);
   height: 400px;
   width: 900px;
-  background:white;
+  background: white;
   overflow: hidden;
   border-radius: 20px;
   cursor: pointer;
@@ -19,8 +19,7 @@
   text-align: justify;
   color: black;
   padding: 40px;
-  font-family: 'Merriweather', serif;
-
+  font-family: "Merriweather", serif;
 }
 
 h1 {
@@ -42,7 +41,8 @@ h3 {
   content: "";
   height: 100%;
   width: 50%;
-  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
   background-position: 100px;
   background-repeat: no-repeat;
   transition: 1s;
@@ -54,18 +54,19 @@ h3 {
   height: 100%;
   width: 50%;
   right: 0;
-  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+    white;
   background-position: -200px;
   background-repeat: no-repeat;
   transition: 1s;
 }
 
 .container-info:hover .flap::after {
-  transform: translatex(450px);
+  transform: translatex(700px);
 }
 
-.container-info:hover .flap::before{
-  transform: translatex(-450px);
+.container-info:hover .flap::before {
+  transform: translatex(-700px);
 }
 
 * {
@@ -87,7 +88,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;    
+  flex-wrap: wrap;
 }
 
 .icon {
@@ -96,53 +97,53 @@ main {
   height: 70px;
   margin: 20px;
   border-radius: 50%;
-  transition: all .8s;
+  transition: all 0.8s;
   cursor: pointer;
 }
 
 .icon:hover {
   background-color: #e60073;
-  box-shadow:  0 0 20px #e60073 ;
+  box-shadow: 0 0 20px #e60073;
 }
 
 .icon:hover:nth-child(2) {
   background-color: #1877f2;
-  box-shadow:  0 0 20px #1877f2;
+  box-shadow: 0 0 20px #1877f2;
 }
 
 .icon:hover:nth-child(3) {
   background-color: #25d366;
-  box-shadow: 0 0 20px #25d366 ;
+  box-shadow: 0 0 20px #25d366;
 }
 
 .icon:hover:nth-child(4) {
   background-color: #e60073;
-  box-shadow:  0 0 20px #e60073 ;
+  box-shadow: 0 0 20px #e60073;
 }
 
 .icon:hover:nth-child(5) {
   background-color: #1877f2;
-  box-shadow:  0 0 20px #1877f2;
+  box-shadow: 0 0 20px #1877f2;
 }
 
 .icon:hover:nth-child(6) {
   background-color: #25d366;
-  box-shadow: 0 0 20px #25d366 ;
+  box-shadow: 0 0 20px #25d366;
 }
 
 .icon:hover:nth-child(7) {
   background-color: #e60073;
-  box-shadow:  0 0 20px #e60073 ;
+  box-shadow: 0 0 20px #e60073;
 }
 
 .icon:hover:nth-child(8) {
   background-color: #1877f2;
-  box-shadow:  0 0 20px #1877f2;
+  box-shadow: 0 0 20px #1877f2;
 }
 
 .icon:hover:nth-child(9) {
   background-color: #25d366;
-  box-shadow: 0 0 20px #25d366 ;
+  box-shadow: 0 0 20px #25d366;
 }
 
 .icon i {
@@ -150,16 +151,33 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 1.7rem;
 }
 
 svg circle {
   stroke-dasharray: 150;
-  transition: all .8s ease-in-out;
+  transition: all 0.8s ease-in-out;
 }
 
 .icon:hover circle {
   stroke-dasharray: 220;
 }
 
+@media screen and (max-width: 1588px) {
+  .container-info {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .container-info {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container-info {
+    width: 95%;
+  }
+}
